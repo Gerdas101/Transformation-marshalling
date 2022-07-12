@@ -1,0 +1,17 @@
+<!ELEMENT libraries (library*)>
+<!ELEMENT library (name, city, address, books, employees)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT books (book*)>
+<!ELEMENT book (name, category, pages, authors, realiseDate)>
+<!ELEMENT authors (author*)>
+<!ELEMENT author (name, surname)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT realiseDate (#PCDATA)>
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (name, surname, gender, age)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
